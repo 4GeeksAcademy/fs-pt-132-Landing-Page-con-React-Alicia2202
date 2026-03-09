@@ -4,26 +4,28 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
+import Card from "./Card";
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="text-center">
             <Navbar/>
-			<Jumbotron/>
+			<div className="container py-4">
+				<div className="p-5 mb-4 bg-light rounded-3">
+					 <div className="container-fluid py-5">
+						<Jumbotron/>
+						<div className="row cardphoto">
+						<Card/>
+						<Card/>
+						<Card/>
+						<Card/>
+						</div>
+					 </div>
+				</div>
+			</div>
 
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			
 		</div>
 	);
 };
