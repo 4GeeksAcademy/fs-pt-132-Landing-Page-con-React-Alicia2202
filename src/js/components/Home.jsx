@@ -10,23 +10,23 @@ import Footer from "./Footer";
 const Home = () => {
 	return (
 		<div className="text-center">
-            <Navbar/>
+			<Navbar />
 			<div className="container py-4">
 				<div className="p-5 mb-4 bg-light rounded-3">
-					 <div className="container-fluid py-5">
-						<Jumbotron/>
-						<div className="row cardphoto">
-						<Card/>
-						<Card/>
-						<Card/>
-						<Card/>
+					<div className="container-fluid py-5">
+						<Jumbotron />
+						<div className="row g-4">
+							<Card />
+							<Card />
+							<Card />
+							<Card />
 						</div>
-					 </div>
+					</div>
 				</div>
 			</div>
-			<Footer/>
+			<Footer />
 
-			
+
 		</div>
 	);
 };
