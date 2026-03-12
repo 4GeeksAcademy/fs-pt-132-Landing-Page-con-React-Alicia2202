@@ -35,8 +35,8 @@ const Home = () => {
 		<div className="text-center">
 			<Navbar />
 			<div className="container py-4">
-				<div className="p-5 mb-4 bg-light rounded-3">
-					<div className="container-fluid py-5">
+				{/* <div className="p-5 mb-4 bg-light rounded-3"> */}
+					<div className="jumbotron">
 						<Jumbotron />
 						<div className="row g-4">
 							{
@@ -46,7 +46,7 @@ const Home = () => {
 							}
 							
 						</div>
-					</div>
+					{/* </div> */}
 				</div>
 			</div>
 			<Footer />
