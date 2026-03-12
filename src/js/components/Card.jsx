@@ -6,7 +6,7 @@ const Card = ({url,title, description}) => {
    
             <div className="card mycard">
                 <img src={url} className="card-img-top" alt={title}/>
-                    <div className="card-body">
+                    <div className="card-body cardbottom">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{description}</p>
                         <a href="#" className="btn btn-primary">Go somewhere</a>
